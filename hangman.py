@@ -23,8 +23,8 @@ def correct():
 
 	state.clear()
 	
-	state.color("yellow")
-	state.write("Correct!", font=("trocchi",30,"italic"))
+	state.color("green")
+	state.write("Correct!", font=("trocchi",40,"italic"))
 
 def lose():
 	state.clear()
